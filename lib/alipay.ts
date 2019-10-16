@@ -348,6 +348,7 @@ class AlipaySdk {
         dataType: 'text',
         timeout: config.timeout,
         headers: { 'user-agent': this.sdkVersion },
+        enableProxy: true
       })
       .then((ret: { status: number, data: string }) => {
         infoLog && infoLog('[AlipaySdk]exec response: %s', ret);
