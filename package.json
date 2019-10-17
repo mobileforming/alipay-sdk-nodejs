@@ -1,5 +1,5 @@
 {
-  "name": "@mobileforming2/alipay-sdk",
+  "name": "@mobileforming/alipay-sdk",
   "version": "3.0.10",
   "description": "蚂蚁金服开放平台 node sdk",
   "main": "lib/alipay.js",
